@@ -1,0 +1,71 @@
+# Metadata for IRAS Collection by Tax Type, Annual
+---
+Identifier: '05c2b54d-96f3-4a60-9b2d-a8c6b41119ee'
+Name: 'iras-collection-by-tax-type-annual'
+Title: 'IRAS’ Collection by Tax Type, Annual'
+Description: 'Total amount of taxes collected by IRAS with a breakdown by tax type
+  for Financial Year (FY)2002 to FY2019. IRAS'' tax collections include Corporate
+  Income Tax, Individual Income Tax, Withholding Tax, Goods and Services Tax, Property
+  Tax, Stamp Duty, Betting Taxes and Estate Duty.'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'Corporate Tax'
+  - 'GST'
+  - 'Income Tax'
+  - 'Property Tax'
+  - 'Stamp Duty'
+  - 'Taxes'
+Publisher:
+  Name: 'Inland Revenue Authority of Singapore'
+  Admin 1:
+    Name: 'Chua Chanyi'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Chanyi@iras.gov.sg'
+  Admin 2:
+    Name: 'Chua Sin Chet'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Sin_Chet@iras.gov.sg'
+Sources:
+  - 'Inland Revenue Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2002-04-01 to 2020-03-31'
+Last Updated: '2020-09-24T06:32:55.999154'
+Resources:
+  -
+    Identifier: '78c7c9db-c42f-4f93-b711-e8041aaa7933'
+    Title: 'IRAS'' Collection By Tax Type'
+    Url: 'https://storage.data.gov.sg/iras-collection-by-tax-type-annual/resources/iras-collection-by-tax-type-2020-09-24T06-32-55Z.csv'
+    Format: 'CSV'
+    Coverage: '2002-04-01 to 2020-03-31'
+    Description:
+      - '* Property tax collection was higher in FY2011/12 due to the cessation of
+        the Property Tax Deferral for Land Approved for Development on 21 January
+        2011 which resulted in the deferred property tax being collected in FY2011/12.'
+      - '* Betting Taxes include Betting Duty, Private Lotteries Duty and Casino Tax
+        (with effect from March 2010).'
+      - '* Estate Duty has been removed for deaths occuring on or after 15 February
+        2008.'
+    Last Updated: '2020-09-24T06:32:55.597295'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'tax_type'
+        Title: 'Tax Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'tax_collected'
+        Title: 'Tax Collected'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'

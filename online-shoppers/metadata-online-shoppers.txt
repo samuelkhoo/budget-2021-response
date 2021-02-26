@@ -1,0 +1,117 @@
+# Metadata for Online Shoppers
+---
+Identifier: '90a2e001-b334-4de5-90f8-079016a9ee39'
+Name: 'online-shoppers'
+Title: 'Online Shoppers'
+Description:
+  - '#Definition:'
+  - 'Proportion of Singapore residents who bought or ordered goods, services or made
+    transaction over the internet before'
+  - ''
+  - '#Introduction:'
+  - 'The Annual Survey on Infocomm Usage in Households (“Survey”) has been conducted
+    by IDA since the 1990s. The objective of the Survey is to assess the extent of
+    infocomm adoption in Singapore resident households1 and residents.'
+  - ''
+  - '#Methodology:'
+  - 'Data was collected from about 3,500 households and about 3,500 residents via
+    face-to-face interviews. The sample of addresses was provided by the Singapore
+    Department of Statistics based on a random selection using a two-stage stratified
+    design by geographical location and housing type.'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Age Group'
+  - 'Computer Literacy'
+  - 'Information Technology'
+  - 'Internet Access'
+  - 'Retail'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'Planning'
+    Email: 'tan_hock_chai@imda.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.imda.gov.sg/industry-development/facts-and-figures/infocomm-usage-households-and-individuals'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2002-01-01 to 2018-12-31'
+Last Updated: '2019-08-08T07:44:04.418590'
+Resources:
+  -
+    Identifier: '3038ccbd-a78e-4fbe-a9a4-fde9230f480a'
+    Title: 'Online Shoppers'
+    Url: 'https://storage.data.gov.sg/online-shoppers/resources/online-shoppers-2019-08-08T06-52-40Z.csv'
+    Format: 'CSV'
+    Coverage: '2002-01-01 to 2018-12-31'
+    Description: 'To track the adoption of online shopping in Singapore'
+    Last Updated: '2019-08-08T06:52:40.051790'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'percentage'
+        Title: 'Percentage'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Percentage'
+  -
+    Identifier: '5c8f9b98-3b8e-47ff-8b92-0339dc0b37ae'
+    Title: 'Online Shoppers by Age Group'
+    Url: 'https://storage.data.gov.sg/online-shoppers/resources/online-shoppers-by-age-group-2019-08-08T06-54-29Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2018-12-31'
+    Description: 'To track the adoption of online shopping by age group in Singapore'
+    Last Updated: '2019-08-08T06:54:29.128146'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'age_group'
+        Title: 'Age Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage'
+        Title: 'Percentage'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Percentage'
+  -
+    Identifier: '694c17ef-9e78-47c3-98dd-c7eef13326c9'
+    Title: 'Online Shoppers by Value of Purchase'
+    Url: 'https://storage.data.gov.sg/online-shoppers/resources/online-shoppers-by-value-of-purchase-2019-08-08T06-55-44Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2015-12-31'
+    Description: 'To track the adoption of online shopping by value of purchase in
+      Singapore'
+    Last Updated: '2019-08-08T06:55:44.894460'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'value_of_purchase'
+        Title: 'Value Of Purchase'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage_online_shoppers'
+        Title: 'Percentage Online Shoppers'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'
